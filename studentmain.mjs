@@ -14,9 +14,8 @@ rl.question(`Enter Name       : `, (name) =>{
             let std= new Student(name,matricno,major);
             console.log(`______________________________________`);
             std.main();
-
-            rl.close();
             
+            rl.close();
 });
     });
         });
