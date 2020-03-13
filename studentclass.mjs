@@ -29,5 +29,4 @@ class Student{
         console.log(`Major      : ${this.major}`);
     }
 }
-export{Student}
-//exports.module={Student} for js
+export{Student}   //exports.module={Student} for js
